@@ -48,7 +48,7 @@ global.autoswview = false //auto view status/story
 //v2 is link + image menu,
 //v3 is video menu,
 //v4 is call end menu
-global.typemenu = 'v3'
+global.typemenu = 'v4'
 
 //reply messages
 global.mess = {
