@@ -13,7 +13,7 @@ const chalk = require('chalk')
 global.ownernomer = "6282393734303"
 global.ownername = "🦄Dream RANZ"
 global.ytname = "kingranz"
-global.socialm = "GitHub: DGXeon"
+global.socialm = "GitHub: DGn"
 global.location = "India, Mizoram, Aizawl"
 
 global.ownernumber = '6282393734303'  //creator number
@@ -22,7 +22,7 @@ global.botname = 'ᵇᵘᵍ ᵇᵒᵗ' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = '🦄\n\n\n\n\n\n'
+global.author = '🦄\n\n\n\n\n\nhihi'
 
 //console view/theme
 global.themeemoji = '🪀'
@@ -38,7 +38,7 @@ global.prefa = ['','!','.','#','&']
 global.autoRecording = false //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = false //auto typing + recording
-global.autoread = true //auto read messages
+global.autoread = false //auto read messages
 global.autobio = false //auto update bio
 global.anti92 = false //auto block +92 
 global.autoswview = false //auto view status/story
