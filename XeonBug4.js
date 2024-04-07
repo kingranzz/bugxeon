@@ -1892,7 +1892,7 @@ for (let i = 0; i < amount; i++) {
 XeonyCrashy(pushname,victim)
 await sleep(1000)
 }
-let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us`
+replygcxeon(`*Successfully sent as many bugs as ${amount} Please pause for 3 minutes*`)
 }
 break
 case 'ranzbug2':
