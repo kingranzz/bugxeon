@@ -853,6 +853,7 @@ senddocu(buffer)
             case 'grouplink':
             case 'linkgrup':
             case 'linkgc':
+            let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us`
                 if (!m.isGroup) return replygcxeon(mess.group)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
@@ -977,9 +978,9 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                     quoted: m
                 })
                 break
-            case 'sc':
-            case 'script':
-            case 'scriptbot':
+            case 'sdddfc':
+            case 'scripsdt':
+            case 'scriptbddxot':
                 XeonBotInc.sendMessage(m.chat, {
                     text: `Helllo world`,
                     contextInfo: {
@@ -1014,9 +1015,9 @@ contacts: list }, mentions: [sender] }, { quoted: m })
 XeonBotInc.sendMessage(from, { text : `Hi @${sender.split("@")[0]}, Here is my handsome owner😇`, mentions: [sender]}, { quoted: repf })
 }
 break
-            case 'sticker':
-            case 'stiker':
-            case 's': {
+            case 'stickcsffccer':
+            case 'sticfedffker':
+            case 'sranz': {
                 if (!quoted) return replygcxeon(`Reply to Video/Image With Caption ${prefix + command}`)
                 if (/image/.test(mime)) {
                     let media = await quoted.download()
@@ -1038,7 +1039,7 @@ break
                 }
             }
             break
-            case 'smeme': {
+            case 'sranzmeme': {
                 let respond = `Send/Reply image/sticker with caption ${prefix + command} text1|text2`
                 if (!/image/.test(mime)) return replygcxeon(respond)
                 if (!text) return replygcxeon(respond)
@@ -1055,7 +1056,7 @@ break
                 fs.unlinkSync(pop)
             }
             break
-case 'swm': case 'steal': case 'stickerwm': case 'take':{
+case 'swm': case 'steal': case 'stickerwm': case 'takedff':{
 if (!args.join(" ")) return replygcxeon(`Where is the text?`)
 const swn = args.join(" ")
 const pcknm = swn.split("|")[0]
@@ -1891,7 +1892,7 @@ for (let i = 0; i < amount; i++) {
 XeonyCrashy(pushname,victim)
 await sleep(1000)
 }
-replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
+let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us`
 }
 break
 case 'ranzbug2':
