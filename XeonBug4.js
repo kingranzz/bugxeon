@@ -852,8 +852,7 @@ senddocu(buffer)
             case 'linkgroup':
             case 'grouplink':
             case 'linkgrup':
-            case 'linkgc':
-            let textnate = `Hello Brother ${pushname}\n\nNo matter how much you donate is very valuable for us`
+            case 'linkgc':          
                 if (!m.isGroup) return replygcxeon(mess.group)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
